@@ -40,8 +40,8 @@ let slide_free_a = document.querySelector(".btn_free")
 btn.onclick = () => {
     click = !click
     if (click == true) {
-        slide_free_st_left.src = "img/st_b.png"
-        slide_free_st_right.src = "img/st_b.png"
+        slide_free_st_left.src = "Img/st_b.png"
+        slide_free_st_right.src = "Img/st_b.png"
         slide_free_a.style.backgroundColor = "black"
         slide_free_a.style.color = "white"
         
@@ -58,14 +58,14 @@ btn.onclick = () => {
 
 
         body.style.backgroundColor = "white"
-        vic.src = "img/v_b.png"
+        vic.src = "Img/v_b.png"
         text.forEach(element => {
             element.style.color = "#ff0000"
 
 
         });
 
-        btn.src = "img/mun.png"
+        btn.src = "Img/mun.png"
 
         logo.style.color = "black"
 
@@ -91,14 +91,14 @@ btn.onclick = () => {
 
 
         body.style.backgroundColor = "black"
-        vic.src = "img/v_w.png"
+        vic.src = "Img/v_w.png"
         text.forEach(element => {
             element.style.color = "#52ff26"
 
 
         });
 
-        btn.src = "img/sun.png"
+        btn.src = "Img/sun.png"
 
         logo.style.color = "white"
 
